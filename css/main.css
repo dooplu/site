@@ -1,13 +1,10 @@
 header {
 		font-family: Arial, sans-serif;
-		margin: 0;
+		border: none;
 
 
 }
 
-header img{
-	border: none;
-}
 
 body {
 	background-color: #b1b4ba;
