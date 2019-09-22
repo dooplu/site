@@ -5,6 +5,10 @@ header {
 
 }
 
+header img{
+	border: none;
+}
+
 body {
 	background-color: #b1b4ba;
 }
