@@ -1,19 +1,6 @@
-header {
-		font-family: Arial, sans-serif;
-		border: none;
-
-
-}
-
-
-body {
-	background-color: gray;
-	font-family: Arial, sans-serif
-}
-
 .btn-group button {
   background-color: #619eff; /* Green background */
-  border: 1px solid blue; /* Green border */
+  border: 1px solid green; /* Green border */
   color: white; /* White text */
   padding: 10px 50px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
