@@ -1,5 +1,7 @@
 html {
 	font-family: Arial, sans-serif;
+	background-color: black;
+	color: white;
 
 
 }
@@ -27,6 +29,7 @@ body, html {
 
 .hero-text {
 	color: white;
+	padding-left: 1%;
 }
 
 footer {
@@ -34,9 +37,9 @@ footer {
 }
 
 .btn-group button {
-	background-color: #619eff; /* Green background */
-	border: 1px solid blue; /* Green border */
-	color: white; /* White text */
+	background-color: white; /* Green background */
+	border: 2px solid gray; /* Green border */
+	color: black; /* White text */
 	padding: 10px 50px; /* Some padding */
 	cursor: pointer; /* Pointer/hand icon */
 	float: left; /* Float the buttons side by side */
@@ -55,5 +58,9 @@ footer {
 
 /* Add a background color on hover */
 .btn-group button:hover {
-	background-color: #3a85fc;
+	background-color: #D1D1D1;
+}
+
+a {
+	color: #AC02CF;
 }
