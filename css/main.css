@@ -13,12 +13,13 @@ body {
 
 body, html {
 	height: 100%;
+	margin: 0;
 }
 
 .main{
 
- padding-left: 20px;
- padding-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 
@@ -30,9 +31,7 @@ body, html {
 .hero-image {
 	padding-top: 50px;
 	background-image: url("sitebanner.png");
-
-	height: 100%
-
+	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -47,9 +46,15 @@ body, html {
 footer {
 	text-align: center;
 	position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem; 
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem; 
+}
+
+.btn-group
+{
+
+	padding-left: 10px;
 }
 
 .btn-group button {
