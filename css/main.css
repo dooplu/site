@@ -1,14 +1,12 @@
-html {
-	font-family: Arial, sans-serif;
-	background-color: black;
-	color: white;
-
-
+@font-face
+{
+	font-family: courierNormal;
+	src: url(../fonts/CourierPrime-Regular.ttf);
 }
 
-
-body {
-	font-family: Arial, sans-serif
+html {
+	font-family: courierNormal;
+	background-color: black;
 }
 
 body, html {
@@ -54,11 +52,11 @@ footer {
 
 .btn-group
 {
-
 	padding-left: 10px;
 }
 
 .btn-group button {
+	font-family: courierNormal;
 	background-color: white; /* Green background */
 	border: 2px solid gray; /* Green border */
 	color: black; /* White text */
@@ -85,4 +83,9 @@ footer {
 
 a {
 	color: #AC02CF;
+}
+
+#gallery
+{
+	padding: 40px 40px;
 }
