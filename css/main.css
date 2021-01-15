@@ -89,3 +89,24 @@ a {
 {
 	padding: 40px 40px;
 }
+
+.watext
+{
+	width: 50%;
+}
+
+#postits
+{
+	float: right;
+	padding-right: 15%;
+
+}
+
+#ikpreviewgif
+{
+	float: right;
+	position: relative;
+	left: 435px; 
+	padding-top: 300px;
+
+}
